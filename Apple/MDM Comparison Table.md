@@ -212,10 +212,10 @@
     <tr>
         <td>Shared iPad support</td>
         <td>Configuration</td>
-        <td>:x:</td>
+        <td>:grey_exclamation: Educaion only</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>App Lock - iPad single mode app</td>
