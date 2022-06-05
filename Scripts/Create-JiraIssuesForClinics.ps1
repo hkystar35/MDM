@@ -1,9 +1,9 @@
 <#
-	.SYNOPSIS
-		Creates Jira Story Issues for clinic locations
-	
-	.DESCRIPTION
-		Creates Jira Story Issues for clinic locations
+    .SYNOPSIS
+        Creates Jira Story Issues for clinic locations
+
+    .DESCRIPTION
+        Creates Jira Story Issues for clinic locations
         Organizies them into Epics for each US State
         Looks up each address with Google API to add Google Maps link to ticket
         Creates custom Labels for State, City, County, ZIP, and clinicID
