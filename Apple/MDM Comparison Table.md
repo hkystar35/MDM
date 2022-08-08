@@ -224,7 +224,7 @@
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Device Groups - Attribute-based automatic membership</td>
@@ -305,7 +305,7 @@
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>ABM Integration</td>
@@ -386,7 +386,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>macOS - Migration agent from old MDM</td>
@@ -476,7 +476,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Compliance Control</td>
@@ -485,7 +485,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Security Templates</td>
@@ -494,6 +494,6 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
 </table>
