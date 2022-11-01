@@ -199,7 +199,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>App Updates - iOS - Scheduled or Maintenance Window</td>
@@ -219,7 +219,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>API</td>
