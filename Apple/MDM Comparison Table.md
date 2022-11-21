@@ -9,10 +9,12 @@
         <td>Kandji</td>
         <td>Mosyle</td>
         <td>Addigy</td>
+        <td>JumpCloud</td>
     </tr>
     <tr>
         <td>macOS - Local Agent</td>
         <td>Agent</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -27,6 +29,7 @@
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Slack Integration</td>
@@ -36,6 +39,7 @@
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Email Alerts - Requires additional infrastructure</td>
@@ -45,12 +49,14 @@
         <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Outgoing Webhook</td>
         <td>Alerts</td>
         <td>:x:</td>
         <td>:white_check_mark: JSON format not natively configured for Slack or Teams</td>
+        <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
@@ -63,12 +69,14 @@
         <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Email Alerts - Native</td>
         <td>Alerts</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -81,6 +89,7 @@
         <td>:x:</td>
         <td>:white_check_mark: Included with Fuse</td>
         <td>:white_check_mark: Additional cost</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Self Service App - macOS</td>
@@ -90,6 +99,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Custom Apps - Content Distribution</td>
@@ -99,10 +109,12 @@
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>ABM Apps (fka VPP)</td>
         <td>App Delivery</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -117,6 +129,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Custom Apps</td>
@@ -126,6 +139,7 @@
         <td>:grey_exclamation: Custom apps need external blob storage</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:grey_exclamation: Custom apps need external blob storage</td>
     </tr>
     <tr>
         <td>Self Service App - iOS</td>
@@ -134,6 +148,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
         <td>:x:</td>
     </tr>
     <tr>
@@ -144,6 +159,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>App Updates - iOS - Forced</td>
@@ -153,6 +169,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>App Updates - iOS - Self Service</td>
@@ -162,11 +179,13 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>App Updates - macOS - Forced</td>
         <td>App Update</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -180,6 +199,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>App Updates - iOS - Scheduled or Maintenance Window</td>
@@ -188,6 +208,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
         <td>:x:</td>
     </tr>
     <tr>
@@ -198,6 +219,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>API</td>
@@ -206,6 +228,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark: Unconventional setup - all PUT methods; Limited Endpoints</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
@@ -216,12 +239,14 @@
         <td>:white_check_mark: Keeps local cache of configs for continuous enforcement while offline</td>
         <td>:x:</td>
         <td>:x:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Pre-Built Configs/Policies</td>
         <td>Configuration</td>
         <td>:x:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -234,6 +259,7 @@
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Shared iPad support</td>
@@ -242,6 +268,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
         <td>:x:</td>
     </tr>
     <tr>
@@ -252,11 +279,13 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Custom Scripts (without pkg workaround)</td>
         <td>Configuration</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -270,6 +299,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>App Block List</td>
@@ -279,10 +309,12 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Configuration Profiles</td>
         <td>Configuration</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -297,6 +329,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Role-Based Apps, Controls, Automations (Blueprints)</td>
@@ -306,10 +339,12 @@
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>ABM Integration</td>
         <td>Enrollment</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -324,10 +359,12 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Zero-Touch Deployment</td>
         <td>Enrollment</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -342,6 +379,7 @@
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Directory Integration - Google Workspace </td>
@@ -351,11 +389,13 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Admin Portal - SSO Login</td>
         <td>Identity</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -369,11 +409,13 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>macOS - SSO Login</td>
         <td>Identity</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -387,6 +429,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>macOS - Migration agent from old MDM</td>
@@ -395,6 +438,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
@@ -405,6 +449,7 @@
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>OS Updates - mac</td>
@@ -413,6 +458,7 @@
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
@@ -423,6 +469,7 @@
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>AppleTV (tvOS) support</td>
@@ -432,11 +479,13 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Auditor access</td>
         <td>RBAC - Roles</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -450,6 +499,7 @@
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Reporting - Custom</td>
@@ -459,6 +509,7 @@
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Built-In - Local Admin Password Solution (LAPS)</td>
@@ -468,6 +519,7 @@
         <td>:x: pw can be manually changed, but no way to retrieve pw without custom script to write pw to log file</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Baselines (Hardening) Pre-built configs</td>
@@ -477,6 +529,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Compliance Control</td>
@@ -486,6 +539,7 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Security Templates</td>
@@ -495,5 +549,6 @@
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
 </table>
