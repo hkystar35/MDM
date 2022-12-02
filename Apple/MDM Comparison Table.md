@@ -1,3 +1,8 @@
+___
+> Check out my Blog that started this all: [Evaluating Apple MDM Products | SysManSquad](https://sysmansquad.com/2022/05/03/2022-05-03-evaluating-apple-mdm-products)
+___
+
+
 # Simple chart comparing some basic features of Apple MDM products
 
 <table>
