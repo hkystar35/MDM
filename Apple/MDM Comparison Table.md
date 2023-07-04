@@ -43,7 +43,7 @@ ___
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td>:x:</td>
+        <td>:white_check_mark: - Via Zapier</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
@@ -380,7 +380,7 @@ ___
         <td>Directory Integration - Okta</td>
         <td>Identity</td>
         <td>:x:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -501,7 +501,7 @@ ___
         <td>Reporting</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -511,7 +511,7 @@ ___
         <td>Reporting</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
