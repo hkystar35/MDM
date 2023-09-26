@@ -1,4 +1,4 @@
-# Simple table showing networking requirements for manageing Apple devices
+# Simple table showing networking requirements for managing Apple devices
 
 NOTE: This is not all-encompassing.
 
