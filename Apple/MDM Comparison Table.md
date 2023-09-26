@@ -3,7 +3,7 @@ ___
 ___
 
 
-# Simple chart comparing some basic features of Apple MDM products
+# Simple table comparing some basic features of Apple MDM products
 
 <table>
     <tr>
