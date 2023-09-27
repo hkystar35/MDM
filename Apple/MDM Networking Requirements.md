@@ -20,6 +20,8 @@ NOTE: This is not all-encompassing.
     * Single Sign-On
     * Tenant Restrictions
 
+## Networking Requirements Table
+### This table is wiiiiiiiiiiiide -->
 
 <table>
     <tr>
