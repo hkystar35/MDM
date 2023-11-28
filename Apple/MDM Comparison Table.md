@@ -91,7 +91,7 @@ ___
         <td>Antivirus</td>
         <td>:x:</td>
         <td>:white_check_mark: Additional cost</td>
-        <td>:x:</td>
+        <td>:white_check_mark: Additional cost</td>
         <td>:white_check_mark: Included with Fuse</td>
         <td>:white_check_mark: Additional cost</td>
         <td>:x:</td>
