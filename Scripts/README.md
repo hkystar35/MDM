@@ -21,3 +21,29 @@ I cannot share screenshots at this time, sorry.
 ## [Create-JiraIssuesForClinics.ps1](Create-JiraIssuesForClinics.ps1)
 
 This was a very specific project to create a massive amount of Jira issues for hundreds of physical sites and leverage Google Maps' API to put clickable map links in the issues for use by local service techs.
+
+## [install-or-update-sentinelone.zsh](install-or-update-sentinelone.zsh)
+
+With help from [Willk675](https://macadmins.slack.com/team/U03FJURNFNU) to get it started, I expanded to make this script more verbose, add an installation piece, and support for Jamf Pro's script parameter variables.
+
+### Jamf Pro Setup
+1) In Settings > Scripts > click **New +**
+    * General -> Name it
+    * Script -> Paste contents
+    * Options -> label variables 4-6 (see script contents for suggestion)
+**Save**
+
+2) In Computers > Policies > click **New +**
+    * General -> name what you want, triggers, etc.
+    * Packages
+        * Select your uploaded SentinelOne package
+        * Make sure to select **Cache** 
+        * Copy the package name text
+    * Scripts
+        * Select the script you created in Step 1
+        * Set parameter values
+            * Paste the package name, version, and token as necessary
+
+Configure the rest how you want (scope, maintenance, etc.)
+
+Deploy and you should only have to deploy 1 policy to all targeted machines to update or install the agent.
