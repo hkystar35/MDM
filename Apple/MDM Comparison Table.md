@@ -5,6 +5,65 @@ ___
 
 # Simple table comparing some basic features of Apple MDM products
 
+
+<div align="right">
+## Key
+<table>
+    <tr>
+        <td>:white_check_mark:</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td>:x:</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td>:grey_exclamation:</td>
+        <td>Maybe or Partial</td>
+    </tr>
+    <tr>
+        <td>:heavy_minus_sign:</td>
+        <td>Not Applicable</td>
+    </tr>
+    <tr>
+        <td>:grey_question:</td>
+        <td>Unknown or Unclear</td>
+    </tr>
+    <tr>
+        <td>:asterisk:</td>
+        <td>Additional Requirements Needed</td>
+    </tr>
+    <tr>
+        <td>:heavy_dollar_sign:</td>
+        <td>Additional Cost on top of base licensing</td>
+    </tr>
+    <tr>
+        <td>macOS</td>
+        <td>Feature for macOS</td>
+    </tr>
+    <tr>
+        <td>iOS/iPadOS</td>
+        <td>Feature for iOS flavors: iPhoneOS, iPadOS, iPodOS</td>
+    </tr>
+    <tr>
+        <td>tvOS</td>
+        <td>Feature for tvOS (Apple TV)</td>
+    </tr>
+    <tr>
+        <td>Server Infrastructure</td>
+        <td>Infrastructure feature, not OS-specific</td>
+    </tr>
+    <tr>
+        <td>watchOS</td>
+        <td>Feature for watchOS (Apple Watch)</td>
+    </tr>
+    <tr>
+        <td>visionOS</td>
+        <td>Feature for visionOS (Apple Vision Pro)</td>
+    </tr>
+</table>
+</div>
+
 <table>
     <tr>
         <th>Feature</th>
