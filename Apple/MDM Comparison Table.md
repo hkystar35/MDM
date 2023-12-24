@@ -336,7 +336,7 @@ Key
         <td>:grey_question:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
         <td></td>
@@ -348,7 +348,7 @@ Key
         <td>:grey_question:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
         <td></td>
@@ -396,7 +396,7 @@ Key
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
         <td></td>
@@ -444,7 +444,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td></td>
@@ -540,7 +540,7 @@ Key
         <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
         <td>:white_check_mark:</td>
         <td></td>
@@ -684,7 +684,7 @@ Key
         <td>:x:</td>
         <td>:x:</td>
         <td>:white_check_mark: SCIM</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td></td>
@@ -768,7 +768,7 @@ Key
         <td>:x:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:grey_exclamation:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td></td>
@@ -912,7 +912,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td></td>
-        <td></td>
+        <td>:grey_exclamation:</td>
         <td></td>
         <td>:x:</td>
         <td></td>
@@ -924,7 +924,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
