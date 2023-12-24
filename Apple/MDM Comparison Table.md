@@ -106,7 +106,7 @@ Key
         <td>Alerts</td>
         <td>Server Infrastructure</td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:grey_exclamation::asterisk::heavy_dollar_sign:</td>
@@ -118,7 +118,7 @@ Key
         <td>Alerts</td>
         <td>Server Infrastructure</td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:grey_exclamation::asterisk::heavy_dollar_sign:</td>
