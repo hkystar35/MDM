@@ -210,7 +210,7 @@ Key
         <td></td>
     </tr>
     <tr>
-        <td>Custom On-Premesis Content Distribution</td>
+        <td>Custom On-Premises Content Distribution</td>
         <td>Content Delivery</td>
         <td>Server Infrastructure</td>
         <td></td>
