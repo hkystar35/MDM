@@ -98,7 +98,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
         <td></td>
     </tr>
     <tr>
@@ -110,7 +110,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:grey_exclamation::asterisk::heavy_dollar_sign:</td>
-        <td></td>
+        <td>:x:</td>
         <td></td>
     </tr>
     <tr>
@@ -122,7 +122,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:grey_exclamation::asterisk::heavy_dollar_sign:</td>
-        <td></td>
+        <td>:x:</td>
         <td></td>
     </tr>
     <tr>
@@ -134,7 +134,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -398,7 +398,7 @@ Key
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:x:</td>
         <td></td>
     </tr>
     <tr>
@@ -410,7 +410,7 @@ Key
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:x:</td>
         <td></td>
     </tr>
     <tr>
@@ -470,7 +470,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:grey_exclamation:</td>
         <td></td>
     </tr>
     <tr>
@@ -482,7 +482,7 @@ Key
         <td></td>
         <td>:x:</td>
         <td>:x:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -494,7 +494,7 @@ Key
         <td>:x:</td>
         <td>:grey_exclamation:</td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -506,7 +506,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -518,7 +518,7 @@ Key
         <td>:x:</td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -530,7 +530,7 @@ Key
         <td>:x:</td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -542,7 +542,7 @@ Key
         <td>:x:</td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -662,7 +662,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td></td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -674,7 +674,7 @@ Key
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -734,7 +734,7 @@ Key
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -746,7 +746,7 @@ Key
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -758,7 +758,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
         <td></td>
     </tr>
     <tr>
@@ -818,7 +818,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
         <td></td>
     </tr>
     <tr>
@@ -830,7 +830,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -902,7 +902,7 @@ Key
         <td></td>
         <td>:white_check_mark:</td>
         <td></td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
@@ -914,7 +914,7 @@ Key
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:x:</td>
         <td></td>
     </tr>
     <tr>
@@ -926,7 +926,7 @@ Key
         <td></td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:x:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
@@ -938,7 +938,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
         <td></td>
     </tr>
     <tr>
