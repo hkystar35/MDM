@@ -87,7 +87,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>CLI for local agent/binary</td>
@@ -99,7 +99,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Native Teams Integration</td>
@@ -111,7 +111,7 @@ Key
         <td>:x:</td>
         <td>:grey_exclamation::asterisk::heavy_dollar_sign:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Native Slack Integration</td>
@@ -123,7 +123,7 @@ Key
         <td>:x:</td>
         <td>:grey_exclamation::asterisk::heavy_dollar_sign:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Email Alerts</td>
@@ -135,7 +135,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Generic Outgoing Webhook</td>
@@ -147,7 +147,7 @@ Key
         <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>EDR/Antivirus product</td>
@@ -159,7 +159,7 @@ Key
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
     </tr>
     <tr>
         <td>EDR/Antivirus product</td>
@@ -171,7 +171,7 @@ Key
         <td></td>
         <td></td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
     </tr>
     <tr>
         <td>Self Service App</td>
@@ -183,7 +183,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Self Service App</td>
@@ -195,7 +195,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Custom Cloud Content Distribution Network (CDN)</td>
@@ -207,7 +207,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Custom On-Premises Content Distribution</td>
@@ -219,7 +219,7 @@ Key
         <td></td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Apple Business Manager (ABM) VPP Token</td>
@@ -243,7 +243,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Custom Configuration Profile support</td>
@@ -255,7 +255,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Built-in Notifications to end-user</td>
@@ -267,7 +267,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Built-in Notifications to end-user</td>
@@ -279,7 +279,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Forced App Installs (within MDM limitations)</td>
@@ -291,7 +291,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Forced App Installs (within MDM limitations)</td>
@@ -303,7 +303,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Forced App Updates (within MDM limitations)</td>
@@ -315,7 +315,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Forced App Updates (within MDM limitations)</td>
@@ -327,7 +327,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Declarative Device Management support</td>
@@ -339,7 +339,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Declarative Device Management support</td>
@@ -351,7 +351,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Declarative Device Management support</td>
@@ -423,7 +423,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>API - REST standards</td>
@@ -435,7 +435,7 @@ Key
         <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>API - Swagger Documentation</td>
@@ -447,7 +447,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:grey_exclamation:</td>
     </tr>
     <tr>
         <td>API - Non-standard</td>
@@ -471,7 +471,7 @@ Key
         <td>:x:</td>
         <td>:x:</td>
         <td>:grey_exclamation:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Blueprint Configuration framework</td>
@@ -483,7 +483,7 @@ Key
         <td>:x:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Device Groups - Attribute-based  membership - Automatic updates</td>
@@ -495,7 +495,7 @@ Key
         <td>:grey_exclamation:</td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:grey_exclamation:</td>
     </tr>
     <tr>
         <td>Device Groups - Attribute-based  membership - Interval  updates</td>
@@ -507,7 +507,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>User Groups - Attribute-based  membership - Automatic updates</td>
@@ -519,7 +519,7 @@ Key
         <td></td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>User Groups - Attribute-based  membership - Interval  updates</td>
@@ -531,7 +531,7 @@ Key
         <td></td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>User Groups - Directory Service group membership</td>
@@ -543,7 +543,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Shared iPad Mode support</td>
@@ -555,7 +555,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>App Lock - Single App Mode</td>
@@ -567,7 +567,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Custom Scripts deployed from Admin Portal</td>
@@ -579,7 +579,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Restrictions - App Block List</td>
@@ -591,7 +591,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
     </tr>
     <tr>
         <td>Supervise Device</td>
@@ -603,7 +603,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Supervise Device</td>
@@ -615,7 +615,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Apple Business Manager (ABM) MDM Token</td>
@@ -627,7 +627,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Automated Device Enrollment (ADE) support</td>
@@ -639,7 +639,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Automated Device Enrollment (ADE) support</td>
@@ -651,7 +651,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>ADE Package support</td>
@@ -663,7 +663,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>ADE Automatic User Creation from Identity Provider (IdP), like OIDC, Entra ID, Okta, Google Worksapce,etc)</td>
@@ -675,7 +675,7 @@ Key
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Directory Integration - Okta</td>
@@ -687,7 +687,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Directory Integration - Google Workspace </td>
@@ -699,7 +699,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Directory Integration - Microsoft Entra ID</td>
@@ -711,7 +711,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Admin Portal - SSO Login</td>
@@ -723,7 +723,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Login Window replacement with IdP</td>
@@ -735,7 +735,7 @@ Key
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>IdP Password Sync with local account</td>
@@ -747,7 +747,7 @@ Key
         <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Extension Attributes or equivalent</td>
@@ -759,7 +759,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Migration agent or package from previous MDM</td>
@@ -771,7 +771,7 @@ Key
         <td>:grey_exclamation:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>OS Updates</td>
@@ -783,7 +783,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>OS Updates</td>
@@ -795,7 +795,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>OS Updates</td>
@@ -819,7 +819,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Admin Portal - Pre-configured Roles (RBAC)</td>
@@ -831,7 +831,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Reporting - Built in to Admin Portal (no need to export data for manipulation)</td>
@@ -843,7 +843,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Reporting - Customize within Admin Portal</td>
@@ -855,7 +855,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
     </tr>
     <tr>
         <td>Built-In - Local Admin Password Solution (LAPS)</td>
@@ -867,7 +867,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Baselines (Hardening) Pre-built configs</td>
@@ -879,7 +879,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Compliance Control</td>
@@ -891,7 +891,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:x:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Security Templates</td>
@@ -903,7 +903,7 @@ Key
         <td>:white_check_mark:</td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Sandbox instance</td>
@@ -915,7 +915,7 @@ Key
         <td>:grey_exclamation:</td>
         <td></td>
         <td>:x:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Microsoft Conditional Access support</td>
@@ -939,7 +939,7 @@ Key
         <td></td>
         <td></td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Other conditional access support</td>
