@@ -5,20 +5,83 @@ ___
 
 # Simple table comparing some basic features of Apple MDM products
 
+
+<div align="right">
+Key
 <table>
     <tr>
-        <td>Name</td>
-        <td>Catagory</td>
+        <td>:white_check_mark:</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td>:x:</td>
+        <td>No</td>
+    </tr>
+    <tr>
+        <td>:grey_exclamation:</td>
+        <td>Maybe or Partial</td>
+    </tr>
+    <tr>
+        <td>:heavy_minus_sign:</td>
+        <td>Not Applicable</td>
+    </tr>
+    <tr>
+        <td>:grey_question:</td>
+        <td>Unknown or Unclear</td>
+    </tr>
+    <tr>
+        <td>:asterisk:</td>
+        <td>Additional Requirements Needed</td>
+    </tr>
+    <tr>
+        <td>:heavy_dollar_sign:</td>
+        <td>Additional Cost on top of base licensing</td>
+    </tr>
+    <tr>
+        <td>macOS</td>
+        <td>Feature for macOS</td>
+    </tr>
+    <tr>
+        <td>iOS/iPadOS</td>
+        <td>Feature for iOS flavors: iPhoneOS, iPadOS, iPodOS</td>
+    </tr>
+    <tr>
+        <td>tvOS</td>
+        <td>Feature for tvOS (Apple TV)</td>
+    </tr>
+    <tr>
+        <td>Server Infrastructure</td>
+        <td>Infrastructure feature, not OS-specific</td>
+    </tr>
+    <tr>
+        <td>watchOS</td>
+        <td>Feature for watchOS (Apple Watch)</td>
+    </tr>
+    <tr>
+        <td>visionOS</td>
+        <td>Feature for visionOS (Apple Vision Pro)</td>
+    </tr>
+</table>
+</div>
+
+<table>
+    <tr>
+        <th>Feature</th>
+        <th>Category</th>
+        <th>OS</th>
         <td>Meraki SM</td>
         <td>Jamf</td>
         <td>Kandji</td>
         <td>Mosyle</td>
         <td>Addigy</td>
         <td>JumpCloud</td>
+        <td>Intune</td>
     </tr>
     <tr>
-        <td>macOS - Local Agent</td>
+        <td>Local agent/binary</td>
         <td>Agent</td>
+        <td>macOS</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -27,98 +90,202 @@ ___
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>macOS - Local Agent Binary commands</td>
+        <td>CLI for local agent/binary</td>
         <td>Agent</td>
+        <td>macOS</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:x:</td>
     </tr>
     <tr>
-        <td>Slack Integration</td>
+        <td>Native Teams Integration</td>
         <td>Alerts</td>
+        <td>Server Infrastructure</td>
         <td>:x:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td>:white_check_mark: - Via Zapier</td>
-        <td>:white_check_mark:</td>
+        <td>:grey_exclamation::asterisk::heavy_dollar_sign:</td>
+        <td>:x:</td>
+        <td>:x:</td>
     </tr>
     <tr>
-        <td>Email Alerts - Requires additional infrastructure</td>
+        <td>Native Slack Integration</td>
         <td>Alerts</td>
-        <td>:x:</td>
-        <td>:grey_exclamation: Needs SMTP relay server setup</td>
-        <td>:x:</td>
+        <td>Server Infrastructure</td>
         <td>:x:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:grey_exclamation::asterisk::heavy_dollar_sign:</td>
+        <td>:x:</td>
+        <td>:x:</td>
     </tr>
     <tr>
-        <td>Outgoing Webhook</td>
+        <td>Email Alerts</td>
         <td>Alerts</td>
+        <td>Server Infrastructure</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark::asterisk:</td>
         <td>:x:</td>
-        <td>:white_check_mark: JSON format not natively configured for Slack or Teams</td>
-        <td>:x:</td>
-        <td>:x:</td>
-        <td>:x:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>Outgoing Webhook - Requires additional infra for Slack</td>
+        <td>Generic Outgoing Webhook</td>
         <td>Alerts</td>
-        <td>:x:</td>
+        <td>Server Infrastructure</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
         <td>:x:</td>
     </tr>
     <tr>
-        <td>Email Alerts - Native</td>
-        <td>Alerts</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-    </tr>
-    <tr>
-        <td>In-House AV</td>
+        <td>EDR/Antivirus product</td>
         <td>Antivirus</td>
+        <td>macOS</td>
+        <td>:grey_question:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:x:</td>
-        <td>:white_check_mark: Additional cost</td>
-        <td>:white_check_mark: Additional cost</td>
-        <td>:white_check_mark: Included with Fuse</td>
-        <td>:white_check_mark: Additional cost</td>
-        <td>:x:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
     </tr>
     <tr>
-        <td>Self Service App - macOS</td>
+        <td>EDR/Antivirus product</td>
+        <td>Antivirus</td>
+        <td>iOS/iPadOS</td>
+        <td>:grey_question:</td>
+        <td></td>
+        <td>:x:</td>
+        <td></td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+    </tr>
+    <tr>
+        <td>Self Service App</td>
         <td>App Delivery</td>
+        <td>macOS</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>Custom Apps - Content Distribution</td>
+        <td>Self Service App</td>
         <td>App Delivery</td>
+        <td>iOS/iPadOS</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Custom Cloud Content Distribution Network (CDN)</td>
+        <td>Content Delivery</td>
+        <td>Server Infrastructure</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>ABM Apps (fka VPP)</td>
+        <td>Custom On-Premises Content Distribution</td>
+        <td>Content Delivery</td>
+        <td>Server Infrastructure</td>
+        <td></td>
+        <td>:white_check_mark:</td>
+        <td></td>
+        <td></td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+    </tr>
+    <tr>
+        <td>Apple Business Manager (ABM) VPP Token</td>
+        <td>Apple Business Manager</td>
+        <td>Server Infrastructure</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Custom Configuration Profile support</td>
+        <td>Configuration</td>
+        <td>macOS</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Custom Configuration Profile support</td>
+        <td>Configuration</td>
+        <td>iOS/iPadOS</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Built-in Notifications to end-user</td>
+        <td>App Update</td>
+        <td>macOS</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td></td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Built-in Notifications to end-user</td>
+        <td>App Update</td>
+        <td>iOS/iPadOS</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td></td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Forced App Installs (within MDM limitations)</td>
         <td>App Delivery</td>
+        <td>iOS/iPadOS</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -127,8 +294,10 @@ ___
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>App Configure - app settings (force SSO, etc)</td>
+        <td>Forced App Installs (within MDM limitations)</td>
         <td>App Delivery</td>
+        <td>macOS</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -137,59 +306,23 @@ ___
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>Custom Apps</td>
-        <td>App Delivery</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:grey_exclamation: Custom apps need external blob storage</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:grey_exclamation: Custom apps need external blob storage</td>
-    </tr>
-    <tr>
-        <td>Self Service App - iOS</td>
-        <td>App Delivery</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>App Updates - macOS - Notifications without 3rd party script</td>
+        <td>Forced App Updates (within MDM limitations)</td>
         <td>App Update</td>
-        <td>:x:</td>
-        <td>:x: Use Nudge app</td>
+        <td>iOS/iPadOS</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>App Updates - iOS - Forced</td>
+        <td>Forced App Updates (within MDM limitations)</td>
         <td>App Update</td>
-        <td>:x:</td>
+        <td>macOS</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>App Updates - iOS - Self Service</td>
-        <td>App Update</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>App Updates - macOS - Forced</td>
-        <td>App Update</td>
-        <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -197,128 +330,274 @@ ___
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>App Updates - macOS - Self Service</td>
-        <td>App Update</td>
-        <td>:x:</td>
+        <td>Declarative Device Management support</td>
+        <td>Device Management</td>
+        <td>macOS</td>
+        <td>:grey_question:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>App Updates - iOS - Scheduled or Maintenance Window</td>
-        <td>App Update</td>
+        <td>Declarative Device Management support</td>
+        <td>Device Management</td>
+        <td>iOS/iPadOS</td>
+        <td>:grey_question:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>App Updates - macOS - Scheduled or Maintenance Window</td>
-        <td>App Update</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>Declarative Device Management support</td>
+        <td>Device Management</td>
+        <td>watchOS</td>
+        <td>:grey_question:</td>
+        <td></td>
+        <td></td>
+        <td></td>
         <td>:x:</td>
+        <td>:x:</td>
+        <td></td>
     </tr>
     <tr>
-        <td>API</td>
+        <td>Declarative Device Management support</td>
+        <td>Device Management</td>
+        <td>visionOS</td>
+        <td>:grey_question:</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Apple TV support</td>
+        <td>Apple TV</td>
+        <td>tvOS</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Apple Watch support</td>
+        <td>Apple Watch</td>
+        <td>watchOS</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Apple Vision Pro support</td>
+        <td>Apple Vision Pro</td>
+        <td>visionOS</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>API - Public Documentation</td>
         <td>Automation</td>
+        <td>Server Infrastructure</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark: Unconventional setup - all PUT methods; Limited Endpoints</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-    </tr>
-    <tr>
-        <td>Offline mode (cached enforcement)</td>
-        <td>Configuration</td>
         <td>:x:</td>
-        <td>:x:</td>
-        <td>:white_check_mark: Keeps local cache of configs for continuous enforcement while offline</td>
-        <td>:x:</td>
-        <td>:x:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>Pre-Built Configs/Policies</td>
-        <td>Configuration</td>
-        <td>:x:</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>Device Groups - Attribute-based automatic membership</td>
-        <td>Configuration</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>Shared iPad support</td>
-        <td>Configuration</td>
-        <td>:grey_exclamation: Educaion only</td>
+        <td>API - REST standards</td>
+        <td>Automation</td>
+        <td>Server Infrastructure</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>App Lock - iPad single mode app</td>
-        <td>Configuration</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>Custom Scripts (without pkg workaround)</td>
-        <td>Configuration</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>Remediate Configurations</td>
-        <td>Configuration</td>
+        <td>API - Swagger Documentation</td>
+        <td>Automation</td>
+        <td>Server Infrastructure</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:grey_exclamation:</td>
+    </tr>
+    <tr>
+        <td>API - Non-standard</td>
+        <td>Automation</td>
+        <td>Server Infrastructure</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>:white_check_mark:</td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Offline mode (cached enforcement by local agent/binary separate from Config Profiles)</td>
+        <td>Agent</td>
+        <td>macOS</td>
+        <td></td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:grey_exclamation:</td>
+        <td>:x:</td>
+    </tr>
+    <tr>
+        <td>Blueprint Configuration framework</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td></td>
+        <td>:x:</td>
+        <td></td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+    </tr>
+    <tr>
+        <td>Device Groups - Attribute-based  membership - Automatic updates</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:grey_exclamation:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:grey_exclamation:</td>
+    </tr>
+    <tr>
+        <td>Device Groups - Attribute-based  membership - Interval  updates</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
     </tr>
     <tr>
-        <td>App Block List</td>
+        <td>User Groups - Attribute-based  membership - Automatic updates</td>
         <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td></td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>User Groups - Attribute-based  membership - Interval  updates</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td></td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+    </tr>
+    <tr>
+        <td>User Groups - Directory Service group membership</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Shared iPad Mode support</td>
+        <td>Shared iPad Mode</td>
+        <td>iPadOS</td>
+        <td>:grey_exclamation: Education only</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>App Lock - Single App Mode</td>
+        <td>Configuration</td>
+        <td>iOS/iPadOS</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>Configuration Profiles</td>
+        <td>Custom Scripts deployed from Admin Portal</td>
         <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Restrictions - App Block List</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+    </tr>
+    <tr>
+        <td>Supervise Device</td>
+        <td>Configuration</td>
+        <td>macOS</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -328,27 +607,9 @@ ___
     </tr>
     <tr>
         <td>Supervise Device</td>
-        <td>configuration</td>
+        <td>Configuration</td>
+        <td>iOS/iPadOS</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-    </tr>
-    <tr>
-        <td>Role-Based Apps, Controls, Automations (Blueprints)</td>
-        <td>Enrollment</td>
-        <td>:x:</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>ABM Integration</td>
-        <td>Enrollment</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -357,8 +618,10 @@ ___
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>DEP/ADE</td>
-        <td>Enrollment</td>
+        <td>Apple Business Manager (ABM) MDM Token</td>
+        <td>Apple Business Manager</td>
+        <td>Server Infrastructure</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -367,30 +630,84 @@ ___
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>Zero-Touch Deployment</td>
+        <td>Automated Device Enrollment (ADE) support</td>
         <td>Enrollment</td>
+        <td>iOS/iPadOS</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Automated Device Enrollment (ADE) support</td>
+        <td>Enrollment</td>
+        <td>macOS</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>ADE Package support</td>
+        <td>Enrollment</td>
+        <td>macOS</td>
+        <td></td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+    </tr>
+    <tr>
+        <td>ADE Automatic User Creation from Identity Provider (IdP), like OIDC, Entra ID, Okta, Google Worksapce,etc)</td>
+        <td>Enrollment</td>
+        <td>macOS</td>
+        <td></td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Directory Integration - Okta</td>
-        <td>Identity</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
         <td>:x:</td>
+        <td>:x:</td>
+        <td>:white_check_mark: SCIM</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Directory Integration - Google Workspace </td>
-        <td>Identity</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:x:</td>
+    </tr>
+    <tr>
+        <td>Directory Integration - Microsoft Entra ID</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -399,17 +716,9 @@ ___
     <tr>
         <td>Admin Portal - SSO Login</td>
         <td>Identity</td>
-        <td>:x:</td>
+        <td>Server Infrastructure</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-    </tr>
-    <tr>
-        <td>macOS - Password Sync IdP (Okta)&lt;-&gt;Local User Account</td>
-        <td>Identity</td>
-        <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
@@ -417,143 +726,231 @@ ___
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>macOS - SSO Login</td>
+        <td>Login Window replacement with IdP</td>
         <td>Identity</td>
+        <td>macOS</td>
         <td>:x:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:x:</td>
+    </tr>
+    <tr>
+        <td>IdP Password Sync with local account</td>
+        <td>Identity</td>
+        <td>macOS</td>
+        <td>:x:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
+        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
         <td>Extension Attributes or equivalent</td>
         <td>Inventory</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>macOS - Migration agent from old MDM</td>
+        <td>Migration agent or package from previous MDM</td>
         <td>Migration</td>
+        <td>macOS</td>
+        <td>:x:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td>:grey_exclamation:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:x:</td>
     </tr>
     <tr>
-        <td>OS Updates - iOS/mobile</td>
+        <td>OS Updates</td>
         <td>OS Update</td>
-        <td>:x:</td>
-        <td>:x:</td>
+        <td>iOS/iPadOS</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>OS Updates - mac</td>
+        <td>OS Updates</td>
         <td>OS Update</td>
-        <td>:x:</td>
-        <td>:x:</td>
+        <td>macOS</td>
         <td>:white_check_mark:</td>
-        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>OS Updates - mac - Managed (pre-configured)</td>
+        <td>OS Updates</td>
         <td>OS Update</td>
-        <td>:x:</td>
+        <td>tvOS</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Admin Portal - Custom Access Roles (RBAC)</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Admin Portal - Pre-configured Roles (RBAC)</td>
+        <td>Configuration</td>
+        <td>Server Infrastructure</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>AppleTV (tvOS) support</td>
-        <td>Other</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:x:</td>
-    </tr>
-    <tr>
-        <td>Auditor access</td>
-        <td>RBAC - Roles</td>
-        <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-    </tr>
-    <tr>
-        <td>Reporting - Built-In</td>
+        <td>Reporting - Built in to Admin Portal (no need to export data for manipulation)</td>
         <td>Reporting</td>
-        <td>:x:</td>
+        <td>Server Infrastructure</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
     </tr>
     <tr>
-        <td>Reporting - Custom</td>
+        <td>Reporting - Customize within Admin Portal</td>
         <td>Reporting</td>
+        <td>Server Infrastructure</td>
         <td>:x:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:grey_exclamation:</td>
+        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
     </tr>
     <tr>
         <td>Built-In - Local Admin Password Solution (LAPS)</td>
-        <td>Security &amp; Compliance</td>
+        <td>Security</td>
+        <td>macOS</td>
         <td>:x:</td>
-        <td>:x: have to use macOSLAPS</td>
-        <td>:x: pw can be manually changed, but no way to retrieve pw without custom script to write pw to log file</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
         <td>:x:</td>
     </tr>
     <tr>
         <td>Baselines (Hardening) Pre-built configs</td>
-        <td>Security &amp; Compliance</td>
+        <td>Compliance</td>
+        <td>Server Infrastructure</td>
         <td>:x:</td>
+        <td>:x:</td>
+        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
-        <td>:white_check_mark:</td>
+        <td>:x:</td>
         <td>:x:</td>
     </tr>
     <tr>
         <td>Compliance Control</td>
-        <td>Security &amp; Compliance</td>
+        <td>Compliance</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td></td>
+        <td>:white_check_mark:</td>
+        <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Security Templates</td>
+        <td>Security</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
     </tr>
     <tr>
-        <td>Security Templates</td>
-        <td>Security &amp; Compliance</td>
+        <td>Sandbox instance</td>
+        <td>Sandbox</td>
+        <td>Server Infrastructure</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td></td>
+        <td>:grey_exclamation:</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:x:</td>
+    </tr>
+    <tr>
+        <td>Microsoft Conditional Access support</td>
+        <td>Security</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
         <td>:white_check_mark:</td>
+        <td></td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
+        <td>:white_check_mark:</td>
+    </tr>
+    <tr>
+        <td>Okta Device Trust support</td>
+        <td>Security</td>
+        <td>Server Infrastructure</td>
+        <td>:x:</td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td></td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td>:x:</td>
+    </tr>
+    <tr>
+        <td>Other conditional access support</td>
+        <td>Security</td>
+        <td>Server Infrastructure</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>:x:</td>
+        <td>:white_check_mark:</td>
+        <td></td>
     </tr>
 </table>
