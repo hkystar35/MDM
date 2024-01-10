@@ -5,8 +5,8 @@ MDM Related code, docs, scripts, snippets, thoughts, and musings.
 
 
 
-$${\color{red}NOTE!}$$ 
-> Check out the new format of the [MDM Comparison Table](https://github.com/hkystar35/MDM/blob/dev/Apple/MDM%20Comparison%20Table.md) in the `dev` branch. Please [create a new PR](https://github.com/hkystar35/MDM/pull/new/dev) to correct or add any items, MDMs, or add supporting documentation links.
+$${\color{red}New!}$$ 
+> Check out the new format of this table (as of 2024-01-09). Please [create a new PR](https://github.com/hkystar35/MDM/pull/new/main) to correct or add any items, MDMs, or add supporting documentation links.
 
 If you're lucky (unlucky?) enough to get to choose an MDM product for your organization, whether starting new or migrating from an existing one, you need to figure out what your true needs are.
 
