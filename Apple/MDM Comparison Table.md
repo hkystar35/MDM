@@ -744,7 +744,7 @@ Key
         <td>:x:</td>
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark::heavy_dollar_sign:</td>
-        <td></td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:x:</td>
