@@ -167,7 +167,7 @@ Key
         <td>:white_check_mark::heavy_dollar_sign:</td>
         <td>:x:</td>
         <td>:white_check_mark::heavy_dollar_sign:</td>
-        <td>:x:</td>
+        <td>:white_check_mark::heavy_dollar_sign:</td>
     </tr>
     <tr>
         <td>EDR/Antivirus product</td>
@@ -479,7 +479,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:grey_exclamation:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>API - Non-standard</td>
@@ -596,7 +596,7 @@ Key
         <td>:x:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>App Lock - Single App Mode</td>
@@ -635,7 +635,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark::heavy_dollar_sign:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Supervise Device</td>
@@ -765,7 +765,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Admin Portal - SSO Login</td>
@@ -999,7 +999,7 @@ Key
         <td>:white_check_mark:</td>
         <td>:x:</td>
         <td>:white_check_mark:</td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
     <tr>
         <td>Okta Device Trust support</td>
@@ -1025,6 +1025,6 @@ Key
         <td>:x:</td>
         <td>:white_check_mark:</td>
         <td></td>
-        <td></td>
+        <td>:white_check_mark:</td>
     </tr>
 </table>
