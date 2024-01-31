@@ -33,7 +33,7 @@ ___
 | **Native Slack Integration** | Alerts | Server Infrastructure | :x: | :x: | :white_check_mark: | :x: | :grey_exclamation::asterisk::heavy_dollar_sign: | :x: | :x: | :x: |
 | **Email Alerts** | Alerts | Server Infrastructure | :white_check_mark: | :white_check_mark::asterisk: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Generic Outgoing Webhook** | Alerts | Server Infrastructure | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: | :x: | :x: |
-| **EDR/Antivirus product** | Antivirus | macOS | :grey_question: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :x: | :white_check_mark::heavy_dollar_sign: | :x: |
+| **EDR/Antivirus product** | Antivirus | macOS | :grey_question: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :x: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: |
 | **EDR/Antivirus product** | Antivirus | iOS/iPadOS | :grey_question: | :x: | :x: | :x: | :white_check_mark::heavy_dollar_sign: | :x: |
 | **Self Service App** | App Delivery | macOS | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: |
 | **Self Service App** | App Delivery | iOS/iPadOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: |
@@ -49,7 +49,7 @@ ___
 | **Forced App Updates (within MDM limitations)** | App Update | iOS/iPadOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Forced App Updates (within MDM limitations)** | App Update | macOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Declarative Device Management support** | Device Management | macOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
-| **Declarative Device Management support** | Device Management | iOS/iPadOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
+| **Declarative Device Management support** | Device Management | iOS/iPadOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: beta |
 | **Declarative Device Management support** | Device Management | watchOS | :grey_question: | :x: | :x: | :x: |
 | **Declarative Device Management support** | Device Management | visionOS | :grey_question: | :x: | :x: | :x: |
 | **Apple TV support** | Apple TV | tvOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -57,7 +57,7 @@ ___
 | **Apple Vision Pro support** | Apple Vision Pro | visionOS | :x: | :x: | :x: |
 | **API - Public Documentation** | Automation | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **API - REST standards** | Automation | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| **API - Swagger Documentation** | Automation | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :grey_exclamation: |
+| **API - Swagger Documentation** | Automation | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :grey_exclamation: | :white_check_mark: |
 | **API - Non-standard** | Automation | Server Infrastructure | :white_check_mark: |
 | **Offline mode (cached enforcement by local agent/binary separate from Config Profiles)** | Agent | macOS | :x: | :white_check_mark: | :x: | :x: | :grey_exclamation: | :x: |
 | **Blueprint Configuration framework** | Configuration | Server Infrastructure | :x: | :x: | :x: | :white_check_mark: | :x: |
@@ -66,10 +66,10 @@ ___
 | **User Groups - Attribute-based  membership - Automatic updates** | Configuration | Server Infrastructure | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **User Groups - Attribute-based  membership - Interval  updates** | Configuration | Server Infrastructure | :x: | :x: | :x: | :x: | :white_check_mark: | :x: |
 | **User Groups - Directory Service group membership** | Configuration | Server Infrastructure | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| **Shared iPad Mode support** | Shared iPad Mode | iPadOS | :grey_exclamation: Education only | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: |
+| **Shared iPad Mode support** | Shared iPad Mode | iPadOS | :grey_exclamation: Education only | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: |
 | **App Lock - Single App Mode** | Configuration | iOS/iPadOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
 | **Custom Scripts deployed from Admin Portal** | Configuration | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| **Restrictions - App Block List** | Configuration | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark::heavy_dollar_sign: |
+| **Restrictions - App Block List** | Configuration | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark::heavy_dollar_sign: | :white_check_mark: |
 | **Supervise Device** | Configuration | macOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Supervise Device** | Configuration | iOS/iPadOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Apple Business Manager (ABM) MDM Token** | Apple Business Manager | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -79,7 +79,7 @@ ___
 | **ADE Automatic User Creation from Identity Provider (IdP), like OIDC, Entra ID, Okta, Google Worksapce,etc)** | Enrollment | macOS | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark: | :white_check_mark: | :x: |
 | **Directory Integration - Okta** | Configuration | Server Infrastructure | :x: | :x: | :white_check_mark: SCIM | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
 | **Directory Integration - Google Workspace ** | Configuration | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
-| **Directory Integration - Microsoft Entra ID** | Configuration | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Directory Integration - Microsoft Entra ID** | Configuration | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Admin Portal - SSO Login** | Identity | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Login Window replacement with IdP** | Identity | macOS | :x: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark: | :white_check_mark: | :x: | :x: |
 | **IdP Password Sync with local account** | Identity | macOS | :x: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: | :white_check_mark: | :white_check_mark: | :x: | :x: |
@@ -97,6 +97,6 @@ ___
 | **Compliance Control** | Compliance | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
 | **Security Templates** | Security | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: |
 | **Sandbox instance** | Sandbox | Server Infrastructure | :x: | :white_check_mark: | :grey_exclamation: | :x: | :x: | :x: | :white_check_mark: |
-| **Microsoft Conditional Access support** | Security | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
+| **Microsoft Conditional Access support** | Security | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | | :white_check_mark: |
 | **Okta Device Trust support** | Security | Server Infrastructure | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: |
-| **Other conditional access support** | Security | Server Infrastructure | :x: | :white_check_mark: |
+| **Other conditional access support** | Security | Server Infrastructure | :x: | :white_check_mark: | | | | | | :white_check_mark: |
