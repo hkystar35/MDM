@@ -49,7 +49,7 @@ ___
 | **Forced App Updates (within MDM limitations)** | App Update | iOS/iPadOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Forced App Updates (within MDM limitations)** | App Update | macOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Declarative Device Management support** | Device Management | macOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
-| **Declarative Device Management support** | Device Management | iOS/iPadOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
+| **Declarative Device Management support** | Device Management | iOS/iPadOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: beta |
 | **Declarative Device Management support** | Device Management | watchOS | :grey_question: | :x: | :x: | :x: |
 | **Declarative Device Management support** | Device Management | visionOS | :grey_question: | :x: | :x: | :x: |
 | **Apple TV support** | Apple TV | tvOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -97,6 +97,6 @@ ___
 | **Compliance Control** | Compliance | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
 | **Security Templates** | Security | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: |
 | **Sandbox instance** | Sandbox | Server Infrastructure | :x: | :white_check_mark: | :grey_exclamation: | :x: | :x: | :x: | :white_check_mark: |
-| **Microsoft Conditional Access support** | Security | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: |
+| **Microsoft Conditional Access support** | Security | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | | :white_check_mark: |
 | **Okta Device Trust support** | Security | Server Infrastructure | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: |
-| **Other conditional access support** | Security | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: |
+| **Other conditional access support** | Security | Server Infrastructure | :x: | :white_check_mark: | | | | | | :white_check_mark: |
