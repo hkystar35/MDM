@@ -66,7 +66,7 @@ ___
 | **User Groups - Attribute-based  membership - Automatic updates** | Configuration | Server Infrastructure | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **User Groups - Attribute-based  membership - Interval  updates** | Configuration | Server Infrastructure | :x: | :x: | :x: | :x: | :white_check_mark: | :x: |
 | **User Groups - Directory Service group membership** | Configuration | Server Infrastructure | :x: | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| **Shared iPad Mode support** | Shared iPad Mode | iPadOS | :grey_exclamation: Education only | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: |
+| **Shared iPad Mode support** | Shared iPad Mode | iPadOS | :grey_exclamation: Education only | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: |
 | **App Lock - Single App Mode** | Configuration | iOS/iPadOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
 | **Custom Scripts deployed from Admin Portal** | Configuration | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Restrictions - App Block List** | Configuration | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark::heavy_dollar_sign: | :white_check_mark: |
@@ -93,10 +93,10 @@ ___
 | **Reporting - Built in to Admin Portal (no need to export data for manipulation)** | Reporting | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark::heavy_dollar_sign: |
 | **Reporting - Customize within Admin Portal** | Reporting | Server Infrastructure | :x: | :grey_exclamation: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark::heavy_dollar_sign: | :white_check_mark::heavy_dollar_sign: |
 | **Built-In - Local Admin Password Solution (LAPS)** | Security | macOS | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: |
-| **Baselines (Hardening) Pre-built configs** | Compliance | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: | :x: |
-| **Compliance Control** | Compliance | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: |
+| **Baselines (Hardening) Pre-built configs** | Compliance | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: |
+| **Compliance Control** | Compliance | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | **Security Templates** | Security | Server Infrastructure | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :x: |
 | **Sandbox instance** | Sandbox | Server Infrastructure | :x: | :white_check_mark: | :grey_exclamation: | :x: | :x: | :x: | :white_check_mark: |
-| **Microsoft Conditional Access support** | Security | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | | :white_check_mark: |
+| **Microsoft Conditional Access support** | Security | Server Infrastructure | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | | :white_check_mark: |
 | **Okta Device Trust support** | Security | Server Infrastructure | :x: | :x: | :white_check_mark: | :x: | :white_check_mark: | :x: |
 | **Other conditional access support** | Security | Server Infrastructure | :x: | :white_check_mark: | | | | | | :white_check_mark: |
