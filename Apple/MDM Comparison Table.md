@@ -26,7 +26,7 @@ ___
 ### MDM Comparison Table
 
 | **Feature** | **Category** | **OS** | **Meraki SM** | **Jamf** | **Kandji** | **Mosyle** | **Addigy** | **JumpCloud** | **Intune** | **Workspace ONE** | **Rippling** 
-|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|
 | **Local agent/binary** | Agent | macOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: 
 | **CLI for local agent/binary** | Agent | macOS | :x: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :x:
 | **Native Teams Integration** | Alerts | Server Infrastructure | :x: | :x: | :white_check_mark: | :x: | :grey_exclamation::asterisk::heavy_dollar_sign: | :x: | :x: | :x: | :white_check_mark:
