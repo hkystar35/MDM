@@ -46,7 +46,7 @@ ___
 | **Forced App Installs (within MDM limitations)** | App Delivery | macOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | **Forced App Updates (within MDM limitations)** | App Update | iOS/iPadOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | **Forced App Updates (within MDM limitations)** | App Update | macOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| **Declarative Device Management support** | Device Management | macOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark |
+| **Declarative Device Management support** | Device Management | macOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :x: | :white_check_mark: |
 | **Declarative Device Management support** | Device Management | iOS/iPadOS | :grey_question: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: beta | :x: |
 | **Declarative Device Management support** | Device Management | watchOS | :grey_question: | :x: | :x: | :x: | | | | | :x: |
 | **Declarative Device Management support** | Device Management | visionOS | :grey_question: | :x: | :x: | :x: | | | | | :x: |
