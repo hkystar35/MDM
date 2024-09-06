@@ -6,8 +6,9 @@ ___
 
 ## Key
 
-| **:white_check_mark:**    | **Yes**                                           |
+| **Icon/Term**             | *Description*                                     |
 |---------------------------|---------------------------------------------------|
+| **:white_check_mark:**    | Yes                                               |
 | **:x:**                   | No                                                |
 | **:grey_exclamation:**    | Maybe or Partial                                  |
 | **:heavy_minus_sign:**    | Not Applicable                                    |
@@ -17,9 +18,9 @@ ___
 | **macOS**                 | Feature for macOS                                 |
 | **iOS/iPadOS**            | Feature for iOS flavors: iPhoneOS, iPadOS, iPodOS |
 | **tvOS**                  | Feature for tvOS (Apple TV)                       |
-| **Server Infrastructure** | Infrastructure feature, not OS-specific           |
 | **watchOS**               | Feature for watchOS (Apple Watch)                 |
 | **visionOS**              | Feature for visionOS (Apple Vision Pro)           |
+| **Server Infrastructure** | Infrastructure feature, not OS-specific           |
 
 ## MDM Comparison Table
 
