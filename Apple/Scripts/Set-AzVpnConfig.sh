@@ -8,6 +8,7 @@ logPath="/private/var/log/${scriptName%.*}.log"
 consoleUser="$(/usr/bin/stat -f %Su /dev/console)"
 uid=$(id -u "$consoleUser")
 computerName="$(/usr/sbin/scutil --get ComputerName)"
+homeFolder=$(dscl . -read /users/${consoleUser} NFSHomeDirectory | cut -d " " -f 2)
 
 # Script variables
 # Exact App Name, without .app at the end
@@ -15,7 +16,7 @@ appName="Azure VPN Client"
 appFolderName="${appName}.app"
 appFullPath="/Applications/${appFolderName}"
 # Full Path to the folder where the XML file needs to be created
-vpnXMLDestinationFolder="/Users/${consoleUser}/Library/Containers/com.microsoft.AzureVpnMac/Data/Library/Application Support/com.microsoft.AzureVpnMac"
+vpnXMLDestinationFolder="${homeFolder}/Library/Containers/com.microsoft.AzureVpnMac/Data/Library/Application Support/com.microsoft.AzureVpnMac"
 # VPN Connection Name
 prodVPNname="Contoso_VPN-Profile"
 prodVPNconfigFileName="${prodVPNname}.AzureVpnProfile.xml"
