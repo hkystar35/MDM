@@ -52,8 +52,8 @@ ___
 | **Declarative Device Management support** | Device Management | watchOS | :grey_question: | :x: | :x: | :x: | | | | | :x: |
 | **Declarative Device Management support** | Device Management | visionOS | :grey_question: | :x: | :x: | :x: | | | | | :x: |
 | **Apple TV support** | Apple TV | tvOS | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | | :x: |
-| **Apple Watch support** | Apple Watch | watchOS | :white_check_mark: | :x: | :x: | :x: | | | | | :x: |
-| **Apple Vision Pro support** | Apple Vision Pro | visionOS | :x: | :x: | :x: | | | | | | :x: |
+| **Apple Watch support** | Apple Watch | watchOS | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | | | | | :x: |
+| **Apple Vision Pro support** | Apple Vision Pro | visionOS | :x: | :white_check_mark: | :x: | :white_check_mark: | | | | | :x: |
 | **API - Public Documentation** | Automation | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **API - REST standards** | Automation | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | | :white_check_mark: |
 | **API - Swagger Documentation** | Automation | Server Infrastructure | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :grey_exclamation: | :white_check_mark: | |
