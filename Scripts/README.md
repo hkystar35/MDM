@@ -11,7 +11,7 @@ My goals were:
 2) Easy to deploy.
 - Deploying via MDM is the easiest and most reliable option. Jamf's script runner is great and allows for parameters to be labeled and modified within a policy without modifying the script directly.
 4) Non-invasive.
-- Will not interrupt ay existing connections (open Terminal windows). Also, if an OS update clears out the system shell profile, the settings won't throw errors when opening a Terminal.
+- Will not interrupt any existing connections (open Terminal windows). Also, if an OS update clears out the system shell profile, the settings won't throw errors when opening a Terminal.
 5) Easy to remove (or ensure missing info didn't break connections).
 - Avoid having to remove lines from a system shell profile at all costs. Instead, only *add* a one-liner to check for a settings file and source it if exists.
 
@@ -47,3 +47,31 @@ With help from [Willk675](https://macadmins.slack.com/team/U03FJURNFNU) to get i
 Configure the rest how you want (scope, maintenance, etc.)
 
 Deploy and you should only have to deploy 1 policy to all targeted machines to update or install the agent.
+
+## [set-defaultDock.bash](set-defaultDock.bash)
+
+This script leverages [Dockutil](https://github.com/kcrawford/dockutil) to set the currently logged-in Mac user's Dock items.
+
+### Jamf Pro Setup (recommended approach)
+1) In Settings > Scripts > click **New +**
+    * General -> Name it
+    * Script -> Paste contents
+    * Options -> label variables 4-6 (see script contents for suggestion)
+**Save**
+        * I only have Option 4 set for installing Dockutil using a Jamf Pro Policy item's Custom Event trigger. Customize as you se fit.
+
+2) In Computers > Policies > click **New +**
+    * General -> name what you want, triggers, etc.
+        * Trigger
+            * Custom: `set-defaultdock`
+        * Execution Frequency: Ongoing
+    * Scripts
+        * Select the script you created in Step 1
+        * Set parameter values, if needed
+    * Scope
+        * All Computers or a Smart Group for all computers
+    * Self Service
+        * I like to make this available in Self Service in case users ever want to reset their Dock quickly
+
+3) Add Policy from Step 2 to your Enrollment setup (DEPNotify, Jamf Setup Manager, SUPER, Octory, etc)
+    * Have it run last after all apps are installed and Mac is at the user's desktop
