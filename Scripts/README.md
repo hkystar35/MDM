@@ -3,7 +3,7 @@ Some scripts I find useful. Maybe you will, too.
 
 ## [set-proxyVariables.zsh](Apple/Scripts/set-proxyVariables.zsh)
 
-MOVED to [MDM/Apple/Scripts/README.md](Apple/Scripts/README.md)
+MOVED to [MDM/Apple/Scripts/README.md](MDM/Apple/Scripts/README.md)
 
 ## [Create-JiraIssuesForClinics.ps1](Create-JiraIssuesForClinics.ps1)
 
