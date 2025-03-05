@@ -15,11 +15,11 @@
     Requires zscli to be enabled in your Zcloud portal
 
     Author:         hkystar35
-    Date Created:   2025-00-03 18:34 MST
+    Date Created:   2025-03-03 18:34 MST
     Github:         https://github.com/hkystar35/MDM/Apple/Jamf/Extension%20Attributes/zscaler_get-loginStatus.zsh
 
     History:
-        2025-00-03 18:34 MST  hkystar35 - created script
+        2025-03-03 18:34 MST  hkystar35 - created script
 
 COMMENT-BLOCK
 
