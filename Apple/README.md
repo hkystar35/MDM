@@ -19,3 +19,6 @@ Anything I'm able to publish that useful for Jamf Pro. Much of it can likely be 
 
 ### [Extension Attributes](Apple/Jamf/Extension%20Attributes)
 Jamf Pro Extension Attributes
+
+### [Scripts](Apple/Scripts)
+Bash, Zsh, Shell, Powershell scripts related to managing macOS
