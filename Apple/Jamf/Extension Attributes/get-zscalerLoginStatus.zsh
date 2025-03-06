@@ -64,7 +64,7 @@ if [ -f "${_zscli}" ]; then
     # Check zscli for zpa username
     userName="$($_zscli status -s zpa | jq -r '.zpa.username')"
     if [[ $userName == *@contoso.com* ]]; then # modify with your companies username requirements
-        log_output "$userName matches *@micron.com*"
+        log_output "$userName matches *@contoso.com*"
         result="${userName}"
     fi
 fi
