@@ -16,17 +16,18 @@
 
     Author:         hkystar35
     Date Created:   2023-04-19 16:41 MST
-    Github:         https://github.com/hkystar35/MDM/new/main/Scripts/set-proxyVariables.zsh
+    Github:         https://github.com/hkystar35/MDM/blob/main/Apple/Scripts/set-proxyVariables.zsh
 
     History:
         2023-04-19  hkystar35 - created script
         2023-04-19  hkystar35 - added comment blocks and timestamps to line entries for auditing
         2023-04-28  hkystar35 - updated variables to include UPPER and lower cases and used variables
         2023-06-21  hkystar35 - re-wrote script to NOT mess with user's profiles
-                                - /etc/zshrc is modified with a test command to try sourcing "/etc/${orgShortName:l}/${orgShortName:l}_shell_proxySettings.sh"
-                                - "/etc/${orgShortName:l}/${orgShortName:l}_shell_proxySettings.sh" contains the proxy variables
-                                - backup created of /etc/zshrc
-                                - log function writes to /etc/$orgShortName/$log_file
+                              - /etc/zshrc is modified with a test command to try sourcing "/etc/${orgShortName:l}/${orgShortName:l}_shell_proxySettings.sh"
+                              - "/etc/${orgShortName:l}/${orgShortName:l}_shell_proxySettings.sh" contains the proxy variables
+                              - backup created of /etc/zshrc
+                              - log function writes to /etc/$orgShortName/$log_file
+        2025-07-11 hkystar35 - corrected github link in comment blocks
 
 COMMENT-BLOCK
 
